@@ -15,7 +15,7 @@ Chronos is a robust, responsive, and highly interactive Python CLI Alarm Clock a
 
 ---
 
-## 🛠️ Architecture & Engineering Decisions
+## 🛠️ How It Works (Working Design & Architecture)
 
 ```
 +-------------------------------------------------------+
@@ -150,9 +150,7 @@ python -m unittest discover -s tests
 
 ---
 
-## 📖 Interactive CLI User Guide
-
-Upon startup, you will be greeted by the Chronos dashboard.
+## 📖 How to Use (Interactive CLI Guide)
 
 ### Commands
 
@@ -180,4 +178,3 @@ When an alarm rings:
 1. The sound starts repeating and a warning notice is indicated.
 2. Press **Enter** to focus the response shell.
 3. Type **`S`** to snooze (delay alarm by 5 minutes) or **`D`** to dismiss (turn off alarm).
-"# Better-SE-Test" 
